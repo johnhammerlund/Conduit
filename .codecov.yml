@@ -3,3 +3,16 @@ comment:
   behavior: default
   require_changes: no
 
+coverage:
+  status:
+    project:
+      default: off
+      main:
+        target: 80%
+        flags: main
+
+flags:
+  main:
+    paths:
+      - Sources/
+
