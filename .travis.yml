@@ -5,7 +5,6 @@ cache:
 install:
 - export PATH=$HOME/Library/Python/2.7/bin:$PATH
 - bundle install
-- bundle exec danger
 - pip install --user -r requirements.txt
 - brew update
 - brew bundle
