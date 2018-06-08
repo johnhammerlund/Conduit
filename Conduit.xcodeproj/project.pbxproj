@@ -14,6 +14,10 @@
 		1B02EC961F60C06400A41B34 /* URLSessionClientLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B02EC941F60C06400A41B34 /* URLSessionClientLogging.swift */; };
 		1B02EC971F60C06400A41B34 /* URLSessionClientLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B02EC941F60C06400A41B34 /* URLSessionClientLogging.swift */; };
 		1B02EC981F60C06400A41B34 /* URLSessionClientLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B02EC941F60C06400A41B34 /* URLSessionClientLogging.swift */; };
+		1B058FB620CAE7E6004A4285 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B058FB520CAE7E6004A4285 /* Car.swift */; };
+		1B058FB720CAE7E6004A4285 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B058FB520CAE7E6004A4285 /* Car.swift */; };
+		1B058FB820CAE7E6004A4285 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B058FB520CAE7E6004A4285 /* Car.swift */; };
+		1B058FB920CAE7E6004A4285 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B058FB520CAE7E6004A4285 /* Car.swift */; };
 		1B0BF31E1F182031003C77A5 /* AutoPurgingURLImageCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD555421F17DC81004B1172 /* AutoPurgingURLImageCacheTests.swift */; };
 		1B279CBF1F19558100C0005E /* AuthTestUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B279CB21F19558100C0005E /* AuthTestUtilities.swift */; };
 		1B279CC01F19558100C0005E /* AuthTestUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B279CB21F19558100C0005E /* AuthTestUtilities.swift */; };
@@ -407,6 +411,7 @@
 /* Begin PBXFileReference section */
 		1B02EC8C1F60BE4100A41B34 /* ConduitLoggerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConduitLoggerTests.swift; sourceTree = "<group>"; };
 		1B02EC941F60C06400A41B34 /* URLSessionClientLogging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionClientLogging.swift; sourceTree = "<group>"; };
+		1B058FB520CAE7E6004A4285 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		1B0A34091F71AE07001C0970 /* ConduitTestHost-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConduitTestHost-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B279CB21F19558100C0005E /* AuthTestUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthTestUtilities.swift; sourceTree = "<group>"; };
 		1B279CB81F19558100C0005E /* OAuth2AuthorizationCodeTokenGrantStrategyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2AuthorizationCodeTokenGrantStrategyTests.swift; sourceTree = "<group>"; };
@@ -764,6 +769,7 @@
 				1B88B2211F268C220022A69D /* URL.swift */,
 				1B88B2221F268C220022A69D /* URLSessionClient.swift */,
 				1B02EC941F60C06400A41B34 /* URLSessionClientLogging.swift */,
+				1B058FB520CAE7E6004A4285 /* Car.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -1521,6 +1527,7 @@
 				1B88B2CC1F268C220022A69D /* MultipartFormRequestSerializer.swift in Sources */,
 				1BFD2F2F20C850F8005BB791 /* OAuth2RefreshTokenGrantStrategy.swift in Sources */,
 				1B88B2BC1F268C220022A69D /* FormEncodedRequestSerializer.swift in Sources */,
+				1B058FB720CAE7E6004A4285 /* Car.swift in Sources */,
 				1B88B2DC1F268C220022A69D /* SOAPEnvelopeFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1578,6 +1585,7 @@
 				1B88B2C51F268C220022A69D /* JSONRequestSerializer.swift in Sources */,
 				1B88B2E11F268C220022A69D /* XML.swift in Sources */,
 				1B88B2F91F268C220022A69D /* SSLPinningServerAuthenticationPolicy.swift in Sources */,
+				1B058FB820CAE7E6004A4285 /* Car.swift in Sources */,
 				1B88B25D1F268C220022A69D /* OAuth2URLSessionClientFactory.swift in Sources */,
 				1B88B2511F268C220022A69D /* OAuth2Error.swift in Sources */,
 				1B88B2711F268C220022A69D /* OAuth2TokenGrantStrategy.swift in Sources */,
@@ -1644,6 +1652,7 @@
 				1B88B2C61F268C220022A69D /* JSONRequestSerializer.swift in Sources */,
 				1B88B2E21F268C220022A69D /* XML.swift in Sources */,
 				1B88B2FA1F268C220022A69D /* SSLPinningServerAuthenticationPolicy.swift in Sources */,
+				1B058FB920CAE7E6004A4285 /* Car.swift in Sources */,
 				1B88B25E1F268C220022A69D /* OAuth2URLSessionClientFactory.swift in Sources */,
 				1B88B2521F268C220022A69D /* OAuth2Error.swift in Sources */,
 				1B88B2721F268C220022A69D /* OAuth2TokenGrantStrategy.swift in Sources */,
@@ -1801,6 +1810,7 @@
 				1B88B2CF1F268C220022A69D /* QueryString.swift in Sources */,
 				1B88B2FB1F268C220022A69D /* URL.swift in Sources */,
 				1B88B2F31F268C220022A69D /* SessionTaskProxy.swift in Sources */,
+				1B058FB620CAE7E6004A4285 /* Car.swift in Sources */,
 				1B88B28B1F268C220022A69D /* Conduit.swift in Sources */,
 				1B88B29B1F268C220022A69D /* AutoPurgingURLImageCache.swift in Sources */,
 				1B88B2B31F268C220022A69D /* RequestPipelineMiddleware.swift in Sources */,
