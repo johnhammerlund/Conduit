@@ -50,7 +50,6 @@ end
 desc "Run all unit tests on all platforms"
 task :test do
   `./Tests/ConduitTests/start-test-webserver`
-  execute "swift test --parallel"
   build_configurations.each do |config|
     scheme = config[:scheme]
     destinations = config[:destinations].map { |destination| "-destination '#{destination}'" }.join(" ")
