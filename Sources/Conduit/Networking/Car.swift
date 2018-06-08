@@ -28,4 +28,8 @@ final class Car: NSObject {
         pressGasPedal()
     }
 
+    func stop() {
+        
+    }
+
 }

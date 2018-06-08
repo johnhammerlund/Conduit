@@ -268,6 +268,9 @@
 		1B88B3071F268C420022A69D /* AwaitNetworkConnectivityRequestPipelineMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B88B20A1F268C220022A69D /* AwaitNetworkConnectivityRequestPipelineMiddleware.swift */; };
 		1B88B3081F268C430022A69D /* AwaitNetworkConnectivityRequestPipelineMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B88B20A1F268C220022A69D /* AwaitNetworkConnectivityRequestPipelineMiddleware.swift */; };
 		1B88B3091F268C440022A69D /* AwaitNetworkConnectivityRequestPipelineMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B88B20A1F268C220022A69D /* AwaitNetworkConnectivityRequestPipelineMiddleware.swift */; };
+		1BB68D6C20CAFB1B00C26EA4 /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB68D6B20CAFB1B00C26EA4 /* CarTests.swift */; };
+		1BB68D6D20CAFB1B00C26EA4 /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB68D6B20CAFB1B00C26EA4 /* CarTests.swift */; };
+		1BB68D6E20CAFB1B00C26EA4 /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB68D6B20CAFB1B00C26EA4 /* CarTests.swift */; };
 		1BD555671F17DC81004B1172 /* HTTPRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD555401F17DC81004B1172 /* HTTPRequestBuilderTests.swift */; };
 		1BD555681F17DC81004B1172 /* HTTPRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD555401F17DC81004B1172 /* HTTPRequestBuilderTests.swift */; };
 		1BD555691F17DC81004B1172 /* HTTPRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD555401F17DC81004B1172 /* HTTPRequestBuilderTests.swift */; };
@@ -491,6 +494,7 @@
 		1B88B2201F268C220022A69D /* SSLPinningServerAuthenticationPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLPinningServerAuthenticationPolicy.swift; sourceTree = "<group>"; };
 		1B88B2211F268C220022A69D /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 		1B88B2221F268C220022A69D /* URLSessionClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionClient.swift; sourceTree = "<group>"; };
+		1BB68D6B20CAFB1B00C26EA4 /* CarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTests.swift; sourceTree = "<group>"; };
 		1BC229A31F1D6BE4000DAF62 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		1BD5553C1F17DC81004B1172 /* Info-Tests-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Tests-iOS.plist"; sourceTree = "<group>"; };
 		1BD5553D1F17DC81004B1172 /* Info-Tests-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Tests-macOS.plist"; sourceTree = "<group>"; };
@@ -835,6 +839,7 @@
 				1BC229A31F1D6BE4000DAF62 /* Resource.swift */,
 				1BD5555D1F17DC81004B1172 /* start-test-webserver */,
 				1B279CE31F19558900C0005E /* stop-test-webserver */,
+				1BB68D6B20CAFB1B00C26EA4 /* CarTests.swift */,
 			);
 			path = ConduitTests;
 			sourceTree = "<group>";
@@ -1685,6 +1690,7 @@
 				1BD555A61F17DC81004B1172 /* URLSessionClientTests.swift in Sources */,
 				1BD5559D1F17DC81004B1172 /* XMLResponseDeserializerTests.swift in Sources */,
 				1BD555A31F17DC81004B1172 /* SSLPinningServerAuthenticationPolicyTests.swift in Sources */,
+				1BB68D6C20CAFB1B00C26EA4 /* CarTests.swift in Sources */,
 				1B279CCE1F19558100C0005E /* OAuth2AuthorizationCodeTokenGrantStrategyTests.swift in Sources */,
 				1BD555671F17DC81004B1172 /* HTTPRequestBuilderTests.swift in Sources */,
 				1B279CE01F19558100C0005E /* OAuth2TokenStorageTests.swift in Sources */,
@@ -1722,6 +1728,7 @@
 				1BD555A71F17DC81004B1172 /* URLSessionClientTests.swift in Sources */,
 				1BD5559E1F17DC81004B1172 /* XMLResponseDeserializerTests.swift in Sources */,
 				1BD555A41F17DC81004B1172 /* SSLPinningServerAuthenticationPolicyTests.swift in Sources */,
+				1BB68D6D20CAFB1B00C26EA4 /* CarTests.swift in Sources */,
 				1B279CCF1F19558100C0005E /* OAuth2AuthorizationCodeTokenGrantStrategyTests.swift in Sources */,
 				1BD555681F17DC81004B1172 /* HTTPRequestBuilderTests.swift in Sources */,
 				1B279CE11F19558100C0005E /* OAuth2TokenStorageTests.swift in Sources */,
@@ -1759,6 +1766,7 @@
 				1BD5559F1F17DC81004B1172 /* XMLResponseDeserializerTests.swift in Sources */,
 				1BD555A51F17DC81004B1172 /* SSLPinningServerAuthenticationPolicyTests.swift in Sources */,
 				1B0BF31E1F182031003C77A5 /* AutoPurgingURLImageCacheTests.swift in Sources */,
+				1BB68D6E20CAFB1B00C26EA4 /* CarTests.swift in Sources */,
 				1B279CD01F19558100C0005E /* OAuth2AuthorizationCodeTokenGrantStrategyTests.swift in Sources */,
 				1BD555691F17DC81004B1172 /* HTTPRequestBuilderTests.swift in Sources */,
 				1B279CE21F19558100C0005E /* OAuth2TokenStorageTests.swift in Sources */,
