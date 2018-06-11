@@ -21,7 +21,7 @@ final class Car: NSObject {
     }
 
     private func pressGasPedal() {
-
+        print("Drive")
     }
 
     func drive() {
