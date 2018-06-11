@@ -5,6 +5,10 @@ comment:
 
 coverage:
   status:
+    patch:
+      default:
+        target: 80%
+        only_pulls: true
     project:
       default: off
       main:
