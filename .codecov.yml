@@ -3,3 +3,26 @@ comment:
   behavior: default
   require_changes: no
 
+coverage:
+  status:
+    patch:
+      default:
+        target: 80%
+        only_pulls: true
+    project:
+      default: off
+      main:
+        target: 80%
+        flags: main
+
+flags:
+  main:
+    paths:
+      - Sources/
+
+ignore:
+  - "Example/"
+  - "Tests/"
+  - "TestHosts/"
+  - "images/"
+  - ".github/"
