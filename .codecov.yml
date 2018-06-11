@@ -20,3 +20,9 @@ flags:
     paths:
       - Sources/
 
+ignore:
+  - "Example/"
+  - "Tests/"
+  - "TestHosts/"
+  - "images/"
+  - ".github/"
