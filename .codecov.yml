@@ -12,7 +12,7 @@ coverage:
     project:
       default: off
       main:
-        target: 79%
+        target: 80%
         flags: main
 
 flags:
