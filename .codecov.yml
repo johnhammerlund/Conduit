@@ -8,7 +8,6 @@ coverage:
     patch:
       default:
         target: 79%
-        only_pulls: true
     project:
       default: off
       main:
